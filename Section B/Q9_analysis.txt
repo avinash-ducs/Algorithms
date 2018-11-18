@@ -171,6 +171,6 @@ line 7		-> each call to equate() takes O(1) time
 
 --------------------------------------------------
 
-Since lines 1-7 execute O(n) times because of the outer for loop, and lines 4,5,6 execute 1,2,3 ... n-1 times, O(n^2), the overall time complexity comes out to be O(n*n^2),
+Since lines 1,2,3,7 execute O(n) times because of the outer for loop, and lines 4,5,6 execute 1,2,3 ... n-1 times, O(n^2), the overall time complexity comes out to be O(n^2),
 
-Time complexity = O(n^3)
+Time complexity = O(n^2)
